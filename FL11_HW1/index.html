@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background: white">
+  
+ <header>
+  <head><img src="D:\Homework\homework\logo.png" alt="logo"></head>
+  <body> 
+  <h1 align="center">HTML Elements</h1></body>
+   <hr>
+ </header>
+
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#headers">Headers</a>
+  <a href="#text">Text</a>
+  <a href="#list">List</a>
+  <a href="#table">Table</a>
+  <a href="#Blockquotes">Blockquotes</a>
+     
+  <hr>
+ </nav>
+
+<section>
+  <article id="home">
+  <p>Lorem ipsum dolor sit amet,
+<span><a href="">test link</a></span>
+adipiscing elit.
+<b>This is strong.</b>
+Nullam dignissim convallis est. Quisque aliquam.
+This is 
+<br>
+<em>emphasized.</em>
+Donec faucibus. Nunc iaculis suscipit dui. 5
+3 = 125.
+Water is H2O.
+Nam sit amet sem. Aliquam libero nisi, imperdiet at,
+<br>
+ tincidunt nec, gravida vehicula, nisl.
+<span style="font-style: italic;">The New York Times</span>
+(That�s a citation).
+<u>Underline.</u>
+Maecenas ornare tortor. Donec sed tellus
+<br>
+eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+
+</p>
+<hr>
+<p>
+ 
+Watch out for the abbreviations!
+Hyper Text Markup Language HTML
+and
+Cascading Style Sheets CSS
+are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type
+COPY
+filename.
+Dinner`s at 5:00.
+Let�s make that 7.
+This text has been struck.
+</p>
+<hr>
+<p>
+  Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2,
+because we have to use only one h1 on the page, and it is commonly used inside header
+</p>
+</article>
+
+<article id="headers">
+  <p><h2>Header 2</h2></p>
+  <p><h3>Header 3</h3></p>
+  <p><h4>Header 4</h4></p>
+  <p><h5>Header 5</h5></p>
+  <p><h6>Header 6</h6></p>
+
+</article>
+
+
+
+
+<article id="text">
+
+<title>Text formats</title>
+ <p> Article Text</p>
+
+ <p> <h2> Article title</h2></p>
+  <p>  Article description</p>
+
+
+
+<p>
+  <h2>Preformatted Text</h2>
+  </p>
+  <pre>
+Text
+in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+line breaks
+</pre>
+<pre>
+<code>
+This is code
+.wrapper {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+</code>
+</pre>
+</article>
+</section>
+
+
+
+
+
+
+
+
+
+
+  <article id="list">
+    <ul>
+Unordered Product List
+<li>Eggs</li>
+<li>Meat</li>
+  <li>Chicken</li>
+  <li>  Beef</li>
+  <li>Pork</li>
+  <li>Milk</li>
+
+</ul>
+<ol type="1">
+Ordered TODO List
+<li>Relax</li>
+<li>Finish homework</li>
+  <ol type="A">
+  <li> Analyze requirements</li>
+  <li>Create HTML page</li>
+  <li>Upload to GitHub</li>
+
+  </ol>
+<li>Enjoy your day</li>
+</ol>
+<p>
+Definition List
+HTML
+HTML is the standard markup language for Web pages
+CSS
+CSS describes how HTML elements are to be displayed
+JavaScript
+JavaScript is the Programming Language for the Web
+</p>
+<label for="select name">Select option</label>
+<select name="select option">
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="JS">JS</option>
+</select>
+<hr>
+</article>
+<article id="table">
+
+   <hr>
+<h2>Table</h2>
+  <style>
+  table, th, td {
+  border: 1px solid black;
+  }
+  </style>
+
+<table>
+<thead >
+<tr>
+  <th>Cities</th>
+  <th>Technologies</th>
+</tr>
+</thead>
+<tbody>
+  <tr>
+    <th>Lviv</th>
+       <th>HTML</th>
+  </tr>
+   <tr>
+    <th>Vinnytsia</th>
+       <th>CSS</th>
+  </tr>
+   <tr>
+    <th>Dnipro</th>
+       <th>JavaScript</th>
+  </tr>
+   <tr>
+    <th>Kharkiv</th>
+       <th>Angular</th>
+  </tr>
+   <tr>
+    <th>Kyiv</th>
+       <th>ReactJS</th>
+  </tr>
+</tbody>
+</table>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+<article id="Blockquotes">
+
+<head>
+<h2>Blockquotes</h2>
+</head>
+<p style="font-style: italic;">Let�s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+<p>
+"If you go back a few hundred years, what we take for granted today would seem like magic-being able
+<br>
+to talk to people over long distances, to transmit images, flying, accessing vast amounts of data
+<br>
+like an oracle. These are all things that would have been considered magic a few hundred years ago."
+<br>
+<a href="">Elon Musk</a>
+
+</p>
+
+<hr>
+</article>
+<form>
+  <fieldset>
+     <label>First name:</label>
+  <input type="text" name="">
+  </fieldset>
+ <fieldset>
+     <label>Second name:</label>
+     <input type="text" name="">
+ </fieldset>
+<fieldset>
+  <label>Email:</label>
+  <input type="Email" name="">
+</fieldset>
+  <fieldset>
+      <label>Password:</label>
+      <input type="Password" name="">
+  </fieldset>
+<fieldset>  <textarea></textarea></fieldset>
+  <fieldset><button>Submit</button></fieldset>
+
+</form>
+
+
+
+
+
+<footer>
+� Copyright Epam Systems
+</footer>
+
+</body>
+
+</html>
